@@ -11,11 +11,6 @@ var config = {
     jwt: process.env.JWT
   },
 
-  dateWhenTransferBecomesUnavailable: {
-    day: 1,
-    month: 5 //months are zero indexed, so june is 5h month
-  },
-
   defaultDaysPerYear: process.env.defaultDaysPerYear,
   defaultTransferFromPreviousYear: process.env.defaultTransferFromPreviousYear,
   excludePropertiesUser: "-password -salt -__v -initialYearStates ",
